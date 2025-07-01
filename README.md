@@ -52,6 +52,8 @@ the fan on or off based on threshold logic.
 This introduces **hysteresis**, preventing relay chatter near the 
 threshold.
 
+Link to Video: https://youtu.be/pAPqDm5CAdE
+
 ---
 
 ## 🧾 Sample Output
