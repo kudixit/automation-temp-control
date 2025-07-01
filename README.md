@@ -1,3 +1,32 @@
+## Project Summary — Home Automation Temperature & Fan Control
+
+### Phase 1: Basic Temperature Reading Setup
+- Connected and configured a **DS18B20 temperature sensor** to Raspberry Pi GPIO.
+- Developed Python code to **read temperature data every 2 seconds** from the sensor.
+- Learned to access sensor data from `/sys/bus/w1/devices/` and parse temperature values.
+
+### Phase 2: Data Logging & Visualization
+- Built a **Dash web dashboard** to visualize live temperature data.
+- Implemented CSV logging to save temperature readings with timestamps.
+- Created a live updating UI with graphical temperature plots and current readings.
+- Managed Python dependencies using virtual environments (`venv`).
+- Resolved package compatibility issues by configuring the venv to access system-wide packages.
+
+### Fan & Relay Control Integration
+- Wired and tested a **relay module** to control a fan via Raspberry Pi GPIO pins.
+- Developed Python scripts using `RPi.GPIO` to toggle the fan on/off.
+- Learned hardware wiring for relay control, including power supply and grounding considerations.
+- Integrated relay control and Dash UI in the same Python environment.
+
+### Combining Software and Hardware
+- Fixed compatibility issues related to Python packages (`typing_extensions`) to run Dash and hardware control simultaneously.
+- Successfully ran fan control and dashboard code in a single virtual environment.
+- Gained experience working inside and outside Python virtual environments to balance hardware access and package management.
+
+---
+
+This project provides hands-on experience in embedded programming, sensor data acquisition, data visualization, and hardware automation.
+
 ~# 🧠 Temperature-Based Fan Control using Raspberry Pi
 
 This project is a beginner-to-intermediate home automation setup that uses 
